@@ -36,7 +36,7 @@ function buildMetadata(sample) {
       PANEL.html("");
       // Append an h6 heading tag into the PANEL tag, and insert the demographic:
       Object.entries(result).forEach( ([key, pair]) => {
-        PANEL.append("h6").text(`${key.toUpperCase()}: ${pair}`)    
+        PANEL.append("h6").text(`${key}: ${pair}`)    
     });
       console.log(textResult)
     });
